@@ -1,0 +1,5 @@
+Viewing a diff between two versions of a file
+showed me the exact lines that were changed.
+I didn't have to pore through the entirety of
+both files in order to see where the bug
+occurred.
