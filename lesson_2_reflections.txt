@@ -27,4 +27,10 @@ If I have working code but want to try out a new feature that might
 break it, I could create a branch for work on that feature. Branching
 would help because I could work on the new feature and the main
  program simultaneously, and if the new feature didn't work out, I
- could always go back to the other branch. 
+ could always go back to the other branch.
+
+ How do the history diagrams help you visualize the branch structure?
+
+ They give me a visual representation of my commit history, and allow
+ me to easily spot unreachable commits and understand why they're
+ unreachable.  
