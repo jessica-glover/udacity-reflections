@@ -33,4 +33,13 @@ would help because I could work on the new feature and the main
 
  They give me a visual representation of my commit history, and allow
  me to easily spot unreachable commits and understand why they're
- unreachable.  
+ unreachable.
+
+ What is the result of merging two branches together? Why do we represent it
+ in the diagram the way we do?
+
+ The result of merging two branches together is a new commit that combines
+ the changes in both branches, and git log will show commits from both
+ branches in the order of their timestamps. We represent it in the diagram
+ in a way that emphasizes the new commit, and that shows which branch is
+ merged into the other branch. 
