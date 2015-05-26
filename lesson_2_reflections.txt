@@ -42,4 +42,16 @@ would help because I could work on the new feature and the main
  the changes in both branches, and git log will show commits from both
  branches in the order of their timestamps. We represent it in the diagram
  in a way that emphasizes the new commit, and that shows which branch is
- merged into the other branch. 
+ merged into the other branch.
+
+ What are the pros and cons of Git's automatic merging versus always doing
+ merges manually?
+
+ Pros: Git reduces the amount of work to do and potential errors, by
+ automatically merging what is "obvious", and by saving for the user only those
+ potential conflicts.
+
+ Cons: Git cannot automatically merge everything, and some of the things
+ it thinks are conflicts seem really obvious to the user.
+
+ 

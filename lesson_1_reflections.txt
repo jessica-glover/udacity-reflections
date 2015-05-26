@@ -1,5 +1,61 @@
+How did viewing a diff between two versions of
+a file help you see the bug that was introduced?
+
 Viewing a diff between two versions of a file
 showed me the exact lines that were changed.
 I didn't have to pore through the entirety of
 both files in order to see where the bug
 occurred.
+
+How could having easy access to the entire history
+of a file make you a more efficient programmer
+in the long term?
+
+It could show me the mistakes I made, so I'm less
+likely to make them again. It also allows me to
+go back in time before I made a mistake, so I can
+easily start over from just before the bug
+was introduced.
+
+What do you think are the pros and cons of manually
+choosing when to create a commit, like you do in Git,
+vs having versions automatically saved, like Google Docs
+does?
+
+Pros: You can choose to commit every time you make a
+logical change, and you can add a message describing
+the change you made, which makes it easier to search
+commits.
+Cons: You might go too long without committing, and
+end up with a commit in which it is too difficult to see
+differences between it and previous commits.
+
+Why do you think some version control systems, like Git,
+allow saving multiple files in one commit, while others,
+like Google Docs, treat each file separately?
+
+It makes sense to save multiple files in one commit when
+a logical change involves code changes across files. It
+makes sense to treat each file separately when content
+in one file is independent of content in other files.
+
+How can you use the commands git log and git diff to view
+the history of files?
+
+git log shows you the commits, their ids and messages, in
+reverse chronological order. Then you can use git diff to
+view the changes between two commits.
+
+How might using version control make you more confident to
+make changes that could break something?
+
+If I broke something, and was using version control, I could
+find the commit where I introduced the bug and it would be
+much easier to fix my mistake.
+
+Now that you have your workspace set up, what do you want to
+try using Git for?
+
+I want to use git to keep track of projects for work, where
+I collaborate with other engineers. So I need to learn about
+branching and merge conflicts.
