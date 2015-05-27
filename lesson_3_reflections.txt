@@ -6,4 +6,17 @@ Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
 You might not want to see changes being made by a collaborator until you are
-ready. That could be distracting. 
+ready. That could be distracting.
+
+Describe the differences between forks, clones and branches. When would you use
+one instead of another?
+
+A fork is like a clone that links to the original owner's repository. You would
+use a fork when you want to modify their code, but aren't a collaborator. Using
+a fork gives them credit for the work they've done. A clone is a copy of a
+repository. You might clone a repository that you've authored onto another
+work station, or you might clone another author's repository to contribute code
+to it. A branch is a part of a repository. It's useful for keeping experimental
+code separate from other code, or for collaborators to keep their changes
+separate until they are ready to merge. Collaborators would use branches instead
+of forks, because they only need to keep their code separate temporarily.
